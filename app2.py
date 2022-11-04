@@ -14,6 +14,7 @@ st.markdown (''' ### This is a demo app for Streamlit
 * This is a demo app for Streamlit
 ''')
 
+st.markdown ("https://st-eps.streamlit.app/page3")
 
 num1 = st.number_input('Pick a number', 0, 100)
 num2 = st.number_input('Pick another number', 0, 100)
